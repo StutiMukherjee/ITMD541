@@ -1,41 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="CSS/base.css" rel="stylesheet" type="text/css">
-    <title>My Introduction</title>
-</head>
-<body>
-    <header>
-        <h1>My Introduction</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#web-experience">Web Experience</a></li>
-                <!-- Add more navigation links as needed -->
-            </ul>
-        </nav>
-    </header>
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            Hello, I'm Stuti Mukherjee. I'm excited to be a part of this class and to share my web development journey with you.
-        </p>
-    </section>
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
 
-    <section id="web-experience">
-        <h2>Web Experience</h2>
-        <p>
-            I have 1 of experience in web development. I've worked on various projects, including creating of colege specific landing pages for Dell Techw.
-        </p>
-    </section>
 
-    <!-- Add more sections and content as needed -->
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
 
-    <footer>
-        <p>&copy; 2023 [Your Name]</p>
-    </footer>
-</body>
-</html>
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
