@@ -44,7 +44,17 @@ h2 {
     padding: 0.5rem;
     border-radius: 5px;
 }
-
+hr{
+    border: 5px dotted rgb(6, 142, 6);
+    border-radius: 5px;
+}o
+h3 {
+    font-size: 1.5rem;
+    color: #333;
+    background-color: #193592; /* Change to blue (#007BFF) */
+    padding: 0.5rem;
+    border-radius: 5px;
+}
 p {
     font-size: 1.1rem;
     line-height: 1.6;
