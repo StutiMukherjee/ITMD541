@@ -17,9 +17,9 @@ body {
     padding: 0;
 }
 
-.header_class {
+header {
     background-color: #333;
-    color: #008000; /* Change to blue (#007BFF) */
+    color: #007BFF; /* Change to blue (#007BFF) */
     text-align: center;
     padding: 2rem 0;
 }
@@ -54,7 +54,7 @@ hr{
 }
 h3 {
     font-size: 1.5rem;
-    color: #fb8500;
+    color: #333;
     background-color: #193592; /* Change to blue (#007BFF) */
     padding: 0.5rem;
     border-radius: 5px;
@@ -79,9 +79,3 @@ footer {
     text-align: center;
     padding: 1rem 0;
 }
-
-
-
-
-
-
